@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 1</title>
+    <style>
+        table{
+            background-color: rgb(138, 210, 210);
+            border-color: white;
+            border: 1px solid black;
+            border-radius: 10px;
+        }
+        th,td{
+            border: 1px solid black;
+            border-radius: 10px;
+            padding: 2px;
+        }
+        .rectangles{
+            float: left;
+            border: 1px solid rgb(54, 214, 54);
+            padding: 10px;
+            margin-right: 15px;
+            margin-top: 15px;
+        }
+        .row{
+            display: table-row;
+        }
+        .oval{
+            float: left;
+            border: 1px solid rgb(54, 214, 54);
+            height: 25px;
+            width: 50px;
+            border-radius: 50%;
+            padding: 10px;
+            margin-top: 15px;
+            margin-right: 15px;
+        }
+    </style>
+</head>
+<body>
+    <table border="1" style="width: 60%;">
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>Age</th>
+        <tr>
+            <td>Jill</td>
+            <td>Smith</td>
+            <td>50</td>
+        </tr>
+        <tr>
+            <td>Eve</td>
+            <td>Jackson</td>
+            <td>94</td>
+        </tr>
+        <tr>
+            <td>John</td>
+            <td>Doe</td>
+            <td>80</td>
+        </tr>
+    </table>
+    <br/><br>
+    <div class="row">
+        <div class="rectangles" style="height: 25px; width: 50px; border-width: 3px; border-radius: 4px; margin-left: 280px;"></div>
+        <div class="rectangles" style="height: 25px; width: 50px; border-width: 3px; border-radius: 7px;"></div>
+         <div class="rectangles" style="height: 25px; width: 50px; border-width: 3px; border-radius: 15px;"></div>
+    </div>
+    <div class="row">
+        <div class="rectangles" style="height: 25px; width: 50px; border-width: 3px; border-radius: 7px; margin-left: 280px;"></div>
+        <div class="rectangles" style="height: 25px; width: 50px; border-width: 3px; border-radius: 4px;"></div>
+        <div class="rectangles" style="height: 25px; width: 50px; border-width: 3px; border-radius: 15px;"></div>
+    </div>
+    <div class="row">
+        <div class="oval" style="border-width: 3px; margin-left: 280px;"></div>
+        <div class="rectangles" style="height: 25px; width: 50px; border-width: 3px; border-radius: 4px;"></div>
+        <div class="rectangles" style="height: 25px; width: 50px; border-width: 3px; border-radius: 6px 25% 6px 25%;"></div>
+    </div>    
+</body>
+</html>

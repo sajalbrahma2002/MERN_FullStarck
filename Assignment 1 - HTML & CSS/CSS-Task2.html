@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 2</title>
+    <style>
+        .orange{
+            background-color: orange;
+            font-size:25px;
+            color: white;
+            padding-right: 150px;
+            padding-left: 25px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        .blue{
+            background-color: rgb(102, 183, 215);
+            font-size:25px;
+            color: blue;
+            padding-right: 150px;
+            padding-left: 25px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        .table-container{
+            display: table-row;
+        }
+        .grey{
+            background-color: rgb(112, 115, 117);
+            font-size:20px;
+            color: white;
+            padding-right: 10px;
+            padding-left: 10px;
+            
+        }
+        .white{
+            background-color: rgb(204, 208, 210);
+            font-size:20px;
+            color: blue;
+            padding-right: 20px;
+            padding-left: 20px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            border-left: 1px solid blue;
+        }
+        #bar{
+            float: right;
+            padding: 0 200px 100px 20px;
+        } 
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <td>
+                <article class="table-container">
+                    <h1 style="font-size: 20px; margin-left: 30px;">Vertical Navigation Bar</h1>
+                    <table style="border: 1px solid black; padding-top: 10px; padding-left: 10px; padding-right: 10px; margin-right: 100px;">
+                        <tr><td class="orange">Home</td></tr>
+                        <tr><td class="blue">Java</td></tr>
+                        <tr><td class="blue">CSS</td></tr>
+                        <tr><td class="blue">HTML</td></tr>
+                        <tr><td class="blue">Bootstrap</td></tr>
+                    </table>
+                </article>
+            </td>
+            <td>
+                <aside id="bar">
+                    <h1 style="font-size: 20px; margin-left: 30px;">Horizontal Navigation Bar</h1><br/>
+                    <table style="border: 1px solid black; padding-top: 10px; padding-left: 10px; padding-bottom: 10px;">
+                        <tr>
+                            <td class="grey">Home</td>
+                            <td class="white" style="border-width: 5px solid blue">Java</td>
+                            <td class="white">CSS</td>
+                            <td class="white">HTML</td>
+                            <td class="white">Bootstrap</td>
+                        </tr>
+                   </table>
+                </aside>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

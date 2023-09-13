@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 7</title>
+    <style>
+        .outer-box {
+            width: 600px;
+            height: 460px;
+            background-color: #9c2454;
+            padding-left: 120px;
+            padding-right: 120px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+        .inner-box {
+            background-color: rgb(112, 5, 42);
+            height: 100%
+        }
+        td{
+            color: white;
+            font-size: 18px;
+        }
+        table{
+            padding-left: 100px;
+            padding-top: 30px;
+        }
+        .input-field{
+            width: 180px;
+            height: 25px;
+        }
+    </style>
+</head>
+<body>
+    <div class="outer-box" style="margin-left: 325px; margin-top: 120px;">
+        <div class="inner-box">
+            <form>
+                <table cellspacing="10">
+                    <tr>
+                        <td>Name:</td>
+                        <td style="width: 280px"><input type="text" class="input-field" placeholder="your name" required></td>
+                    </tr>
+                    <tr>
+                        <td>Email:</td>
+                        <td style="width: 280px"><input type="email" class="input-field" placeholder="your email" required></td>
+                    </tr>
+                    <tr>
+                        <td>Password:</td>
+                        <td style="width: 280px"><input type="password" class="input-field" required></td>
+                    </tr>
+                    <tr>
+                        <td>Phone Number:</td>
+                        <td style="width: 280px"><input type="tel" class="input-field" required></td>
+                    </tr>
+                    <tr>
+                        <td>Gender:</td>
+                        <td class="input-field" style="width: 280px">
+                            Male:<input type="radio" name="gender" checked/>
+                            Female:<input type="radio" name="gender"/>   
+                            Other:<input type="radio" name="gender"/> 
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Languages:</td>
+                        <td class="input-field" style="width: 280px;">
+                            <select>
+                                <option>Select language</option>
+                                <option>English</option>
+                                <option>Hindi</option>
+                                <option>Kannada</option>
+                                <option>Telegu</option>
+                                <option>Tamil</option>
+                                <option>Marathi</option>
+                                <option>Bengali</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Zip Code:</td>
+                        <td><input type="text" class="input-field" id="zipcode" maxlength="10" required></td>
+                    </tr>
+                    <tr>
+                        <td>About:</td>
+                        <td ><textarea rows="3" cols="22" placeholder="Write about yourself..."></textarea></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><input type ="button" value="Register" style="font-size: 20px; width: 90%; border-radius: 5px; padding-top: 5px; padding-bottom: 5px; font-weight: bold;"></td>                        
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>
